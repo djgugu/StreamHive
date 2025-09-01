@@ -21,6 +21,26 @@ build/
 out-tsc/
 
 # ======================
+# React / CRA / MUI
+# ======================
+# React build outputs
+build/
+*.cache
+.cache-loader/
+.eslintcache
+
+# MUI specific
+.mui-cache/
+
+# Testing (Jest, React Testing Library, etc.)
+jest/
+*.jest/
+
+# React Native (falls später Mobile)
+.expo/
+*.expo/
+
+# ======================
 # .NET / Backend
 # ======================
 bin/
